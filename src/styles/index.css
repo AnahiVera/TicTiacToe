@@ -1,12 +1,101 @@
 
-/* 
+.container{
+    background: grey;
+    padding: 60px;
+    
+    h3 {
+        color: azure;
+    }
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.choose{
+    background: rgb(85, 85, 85);
+    padding: 30px;
+}
 
-*/
+
+ .buttonX, .buttonO {
+        font-size: 70px;
+        border: none;
+        box-sizing: border-box;
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+        text-align: center;
+        background: rgb(53, 53, 53);
+    }
+    .buttonX {
+        color: aqua;
+        
+    }
+    .buttonO {
+        color: goldenrod;
+    }
+
+    .startButton {
+        width: 100px;
+        height: 50px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        border-radius: 50px;
+        margin-top: 25px;       
+    }
+
+    .startButton:hover{
+        background-color: #d2f3df
+    }
+
+    .startButton:active{
+        transform: scale(0.9);
+    }
+
+    .reset {
+        width: 100px;
+        height: 50px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        border-radius: 50px;
+        margin-top: 25px;
+        margin-bottom: 50px;
+
+    }
+
+    .square {
+        height: 7rem;
+        width: 7rem;
+        background: rgb(82, 80, 80);
+        border: 4px solid black;
+        border-radius: 10px;
+        cursor: pointer;
+        text-align: center;
+        font-size: 5em;
+        padding: 15px;
+        line-height: 5rem;
+        margin: 1rem;
+    }
+
+    .x {
+        color: aqua;
+        text-align: center;
+        
+        
+    }
+
+    .o {
+        color: goldenrod;
+        text-align: center;
+    }
+
+    .board {
+        height: 600px;
+        width: 546px;
+        display: flex;
+        margin: auto;
+
+    }
+
+    
+
