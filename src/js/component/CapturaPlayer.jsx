@@ -27,9 +27,6 @@ const CapturaPlayer = () => {
 
     };
 
-    
-
-
     return (
         <div>
             {gameStarted ? (<Game player1={player1} player2={player2} />

@@ -2,18 +2,34 @@ import React, { useState } from "react";
 import Square from "./Square";
 
 
-const Board = ({ board }) => {
+const Board = ({ squares, onClick}) => {
+    const renderSquare = (i) => {
+        return (
+            <Square value={squares[i]}
+            onClick={() => onClick(i)}
+            />
+        )
+    }
 
     return (
-        <div >
-            {board.map((value, idx) => {  
-                //recordar .map repite sobre un array para aplicar una funcion a cada elemento 
-                return <Square value={value} onClick={() => onClick(idx)} />
-            })}
-
-
+        <div>
+        <div className="board-row">
+            {renderSquare(0)}
+            {renderSquare(1)}
+            {renderSquare(2)}
         </div>
-    );
-}
+        <div className="board-row">
+            {renderSquare(3)}
+            {renderSquare(4)}
+            {renderSquare(5)}
+        </div>
+        <div className="board-row">
+            {renderSquare(6)}
+            {renderSquare(7)}
+            {renderSquare(8)}
+        </div>
+    </div>
+);
+};
 
 export default Board
