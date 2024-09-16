@@ -33,7 +33,7 @@ const CapturaPlayer = () => {
             ) : (
                 <div className="container">
                     <div className="titulos">
-                        <h1>Tic Tac Toe in React.js</h1>
+                        <h1>Tic Tac Toe</h1>
                         <br />
                         <h2>Pick a Weapon</h2>
                     </div>
