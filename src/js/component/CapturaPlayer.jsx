@@ -31,7 +31,7 @@ const CapturaPlayer = () => {
         <div>
             {gameStarted ? (<Game player1={player1} player2={player2} />
             ) : (
-                <div className="container">
+                <div className="container mt-5">
                     <div className="titulos">
                         <h1>Tic Tac Toe</h1>
                         <br />
