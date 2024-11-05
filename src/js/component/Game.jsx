@@ -9,9 +9,11 @@ const Game = ({ player1, player2 }) => {
     const [xIsNext, setXIsNext] = useState(true);
 
     const current = history[stepNumber];
-    const winner = calculateWinner(current);
+    const winnerSymbol = calculateWinner(current);
 
     const isBoardFull = current.every(square => square !== null);
+
+    const winner = winnerSymbol === player1.symbol ? player1.name : winnerSymbol === player2.symbol ? player2.name : null;
 
     const handleClick = (i) => {
         const historyPoint = history.slice(0, stepNumber + 1);
