@@ -53,9 +53,12 @@ const Game = ({ player1, player2 }) => {
 
     return (
         <div className="game">
-            <div className="titulos"><h1>Tic Tac Toe </h1></div>
-            <h2>{player1.name} ({player1.symbol}) VS {player2.name} ({player2.symbol})</h2>
+            <div className="titulos mt-3">
 
+                <h1>Tic Tac Toe </h1>
+
+                <h2>{player1.name} ({player1.symbol}) VS {player2.name} ({player2.symbol})</h2>
+            </div>
             <div className="game-info">
 
                 <div>
