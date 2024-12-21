@@ -1,4 +1,5 @@
-# TictacToe Game
+# TictacToe Game 
+ <a href="https://vercel.com/anahi-veras-projects/tic-tac-toe" target="_blank">Vercel Live Game </a>
 
 ## Characteristics and functionalities
 
@@ -7,11 +8,11 @@ This Tic-Tac-Toe project is a modern and interactive web-based game built using 
 
 ## Technologies
 
-- **JavaScript**: Language for logic.
-- **React**: Library to manage components as necessary.
-- **CSS**: For effects and general design.
-- **Bootstrap**: To implement easy divisions of the components.
 
+ ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+ ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+ ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+ ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 
 ## Execute the project
